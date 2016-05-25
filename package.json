@@ -1,0 +1,21 @@
+{
+  "name": "bot-forge",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "enclave-serve": "enclave",
+    "enclave-build": "node node_modules/enclave/src/build.js",
+    "enclave-eject": "node node_modules/enclave/src/eject/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "enclave": "^0.10.7",
+    "jquery": "^2.2.4",
+    "react": "^15.1.0",
+    "react-dom": "^15.1.0",
+    "stardust": "^0.12.4"
+  }
+}
